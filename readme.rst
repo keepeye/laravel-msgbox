@@ -30,6 +30,13 @@ Step3: Setup the aliases in ``app/config/app.php`` ::
 
     'Msgbox' => 'Keepeye\LaravelMsgbox\LaravelMsgboxFacade'
 
+Step4: Optional configuration ::
+
+    php artisan config:publish keepeye/laravel-msgbox
+    php artisan view:publish keepeye/laravel-msgbox
+
+So,you can modify configuration parameter in ``app/config/package/msgbox/config.php`` ,
+and the view in ``app/views/msgbox/msg.php``.
 
 
 
