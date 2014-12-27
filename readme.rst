@@ -8,9 +8,9 @@ Example::
     <?php
     //this a test route
     Route::get("/test",function(){
-        return Msgbox::info('infomation...');
-        //return Msgbox::success('success tips..');
+        return Msgbox::success('success tips..');
         //return Msgbox::error('error tips...');
+        //return Msgbox::info('infomation...');
     });
 
 Preview:
