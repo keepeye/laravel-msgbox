@@ -63,7 +63,6 @@ class LaravelMsgbox {
         }else{
             $data['timeout'] = 0;
         }
-
         return \View::make("msgbox::msg",$data);
     }
 }

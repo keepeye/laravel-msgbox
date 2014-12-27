@@ -35,8 +35,8 @@ Step4: Optional configuration ::
     php artisan config:publish keepeye/laravel-msgbox
     php artisan view:publish keepeye/laravel-msgbox
 
-So,you can modify configuration parameter in ``app/config/package/msgbox/config.php`` ,
-and the view in ``app/views/msgbox/msg.php``.
+So,you can modify configuration parameter in ``app/config/packages/keepeye/laravel-msgbox/config.php`` ,
+and the view in ``app/views/packages/keepeye/laravel-msgbox/msg.php``.
 
 
 
