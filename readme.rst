@@ -59,9 +59,11 @@ In your controller method,when you want to show a message you can return like::
     return Msgbox::info("info text...",URL::get('/login'));
     //you can specify the time like :
     return Msgbox::info("info text...",null,5);//after 5 second,it will jump to the referer url
-    //the default time param is based on the ``default_timeout`` in the package config file.
-    //if you don't want to jump auto,you can set the third method param to **0** ,or set the config param ``auto_jump`` to ``false``.
-    //In addition to this method and two other methods are almost the same
+
+The default time is based on the ``default_timeout`` defined in the package config file.
+If you don't want to jump auto,just set the third method param to **0** ,or set the config param ``auto_jump`` to ``false``.
+In addition to this method and two other methods are almost the same::
+
     return Msgbox::success('...');
     //and
     return Msgbox::error('...');
