@@ -6,7 +6,7 @@ A package for Laravel 4.2 that allow you display pretty message page and can aut
     Example::
         return Msgbox::info('infomation...');
         return Msgbox::success('success tips..');
-        return Msgbox::error('error tips...');
+        return Msgbox::error('error tips...');  
 
 
 ===============
