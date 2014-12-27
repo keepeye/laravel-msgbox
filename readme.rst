@@ -13,16 +13,16 @@ Example::
         //return Msgbox::error('error tips...');
     });
 
-Preview::
+Preview:
 
-    success message
-    .. image:: https://cloud.githubusercontent.com/assets/3785561/5561150/1685fc74-8dfc-11e4-9049-9227c684be88.png
+success message
+.. image:: https://cloud.githubusercontent.com/assets/3785561/5561150/1685fc74-8dfc-11e4-9049-9227c684be88.png
 
-    error message
-    .. image:: https://cloud.githubusercontent.com/assets/3785561/5561151/171af3d8-8dfc-11e4-8c79-4a67fb09314c.png
+error message
+.. image:: https://cloud.githubusercontent.com/assets/3785561/5561151/171af3d8-8dfc-11e4-8c79-4a67fb09314c.png
 
-    normal information
-    .. image:: https://cloud.githubusercontent.com/assets/3785561/5561152/174530a8-8dfc-11e4-9fb4-ef13a8b139c9.png
+normal information
+.. image:: https://cloud.githubusercontent.com/assets/3785561/5561152/174530a8-8dfc-11e4-9fb4-ef13a8b139c9.png
 
 ===============
 Installnation
