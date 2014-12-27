@@ -26,7 +26,7 @@ Installnation
 ===============
 Step1::
 
-    composer require keepeye/laravel-msgbox --prefer-source
+    composer require keepeye/laravel-msgbox:1.0.* --prefer-source
 
 Step2: Add the service provider to ``app/config/app.php`` ::
 
