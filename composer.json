@@ -1,6 +1,7 @@
 {
     "name": "keepeye/laravel-msgbox",
-    "description": "",
+    "description": "A pretty tool that allow you to display message in a box for Laravel - a good PHP framework.",
+    "license": "MIT",
     "authors": [
         {
             "name": "keepeye",
