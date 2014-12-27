@@ -20,7 +20,21 @@ Installnation
 ===============
 Step1::
 
-    composer require keepeye/laravel-msgbox
+    composer require keepeye/laravel-msgbox --prefer-source
+
+Step2: Add the service provider to `app/config/app.php`
+
+::
+    'Keepeye\LaravelMsgbox\LaravelMsgboxServiceProvider',
+
+Step3: Setup the aliases in `app/config/app.php`
+
+::
+    'Msgbox' => 'Keepeye\LaravelMsgbox\LaravelMsgboxFacade'
+
+
+
+
 
 
 ================
