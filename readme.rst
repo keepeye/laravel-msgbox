@@ -1,3 +1,8 @@
+
+.. _简体中文: readme_cn.rst
+
+简体中文_
+
 =====================
 Laravel Message Box
 =====================
@@ -24,6 +29,11 @@ Preview:
 ===============
 Installnation
 ===============
+Requirements::
+
+    php: >=5.4.0
+    laravel: v4.2
+
 Step1::
 
     composer require keepeye/laravel-msgbox:1.0.* --prefer-source
